@@ -22,8 +22,11 @@ flutter:
   assets:
     - img/welcome-one.jpg
     - img/welcome-two.jpg
-    - pilgrimage.png
-    - waterfall.png
-    - metal-crafts.png
-    - mysterious-cg.png
+    - img/pilgrimage.png
+    - img/waterfall.png
+    - img/metal-crafts.png
+    - img/mysterious-cg.png
+    - img/cave.png
+    - img/food.png
+    - img/tirathgarh.png
 
