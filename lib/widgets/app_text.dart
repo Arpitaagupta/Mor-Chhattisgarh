@@ -14,6 +14,7 @@ class AppText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
+      textAlign: TextAlign.justify,
       text,
       style: TextStyle(
         color: color,

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:mor_chhattisgarh/misc/colors.dart';
 import 'package:mor_chhattisgarh/pages/nav_pages/bar_item_page.dart';
-import 'package:mor_chhattisgarh/pages/nav_pages/home_page.dart';
+import 'package:mor_chhattisgarh/pages/home_page.dart';
 import 'package:mor_chhattisgarh/pages/nav_pages/my_page.dart';
 import 'package:mor_chhattisgarh/pages/nav_pages/search_page.dart';
 
