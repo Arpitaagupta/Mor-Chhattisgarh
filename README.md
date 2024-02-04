@@ -15,7 +15,7 @@ Mor Chhattisgarh is a Flutter-based mobile application designed to serve as a co
    
 <img src="screenshots/screenshot-4.png" width="180" alt="Screenshot-4"> <img src="screenshots/screenshot-5.png" width="180" alt="Screenshot-5"> <img src="screenshots/screenshot-6.png" width="180" alt="Screenshot-6">   
  
-<img src="screenshots/screenshot-7.png" width="180" alt="Screenshot-7">   
+<img src="screenshots/screenshot-7.png" width="180" alt="Screenshot-7"> <img src="screenshots/screenshot-8.png" width="180" alt="Screenshot-8"> <img src="screenshots/screenshot-9.png" width="180" alt="Screenshot-9">      
 
 ## Installation
 
