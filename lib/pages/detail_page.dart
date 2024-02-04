@@ -4,6 +4,7 @@ import 'package:mor_chhattisgarh/widgets/app_buttons.dart';
 import 'package:mor_chhattisgarh/widgets/app_large_text.dart';
 import 'package:mor_chhattisgarh/widgets/app_text.dart';
 import 'package:mor_chhattisgarh/widgets/responsive_button.dart';
+import 'home_page.dart';
 
 class DetailPage extends StatefulWidget {
   const DetailPage({super.key});
@@ -223,8 +224,17 @@ class _DetailPageState extends State<DetailPage> {
                         SizedBox(
                           width: 10,
                         ),
-                        ResponsiveButton(
-                          isResponsive: true,
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => HomePage()),
+                            );
+                          },
+                          child: ResponsiveButton(
+                            isResponsive: true,
+                          ),
                         )
                       ],
                     ))

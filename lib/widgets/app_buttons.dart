@@ -49,3 +49,15 @@ class AppButtons extends StatelessWidget {
     );
   }
 }
+//Cubit
+/* 
+Cubit --> required for statemanagement
+Cubit Package --> States(data) and Cubit(emit())
+A cubit is similar to Bloc but has no notion of events and relies on methods to emit new states. 
+
+
+create cubit
+hold cubit
+check states
+
+ */

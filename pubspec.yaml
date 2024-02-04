@@ -11,6 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  bloc:
+  flutter_bloc:
+  equatable:
+  http:
 
 dev_dependencies:
   flutter_test:
@@ -33,5 +37,5 @@ flutter:
     - img/temple.png
     - img/tribal.png
     - img/logo.png
-    
+
 

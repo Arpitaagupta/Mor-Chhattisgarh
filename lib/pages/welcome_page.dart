@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mor_chhattisgarh/misc/colors.dart';
+import 'package:mor_chhattisgarh/pages/detail_page.dart';
 import 'package:mor_chhattisgarh/widgets/app_large_text.dart';
 import 'package:mor_chhattisgarh/widgets/app_text.dart';
 import 'package:mor_chhattisgarh/widgets/responsive_button.dart';
@@ -101,8 +102,18 @@ class _WelcomePageState extends State<WelcomePage> {
                         SizedBox(
                           height: 40,
                         ),
-                        ResponsiveButton(
-                          width: 120,
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => DetailPage(),
+                              ),
+                            );
+                          },
+                          child: ResponsiveButton(
+                            width: 120,
+                          ),
                         )
                       ],
                     ),

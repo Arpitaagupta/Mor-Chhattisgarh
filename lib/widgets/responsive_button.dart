@@ -12,36 +12,34 @@ class ResponsiveButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Flexible(
-      child: Container(
-        width: isResponsive == true ? double.maxFinite : width,
-        height: 60,
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10), color: AppColor.cyan700),
-        child: Row(
-          mainAxisAlignment: isResponsive == true
-              ? MainAxisAlignment.spaceBetween
-              : MainAxisAlignment.center,
-          children: [
-            isResponsive == true
-                ? Container(
-                    margin: const EdgeInsets.only(left: 20),
-                    child: AppText(
-                      text: "Book Trip Now",
-                      color: Colors.white,
-                    ),
-                  )
-                : Container(),
-            IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.keyboard_double_arrow_right_rounded,
-                color: Colors.white,
-                size: 35,
-              ),
+    return Container(
+      width: isResponsive == true ? double.maxFinite : width,
+      height: 60,
+      decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(10), color: AppColor.cyan700),
+      child: Row(
+        mainAxisAlignment: isResponsive == true
+            ? MainAxisAlignment.spaceBetween
+            : MainAxisAlignment.center,
+        children: [
+          isResponsive == true
+              ? Container(
+                  margin: const EdgeInsets.only(left: 20),
+                  child: AppText(
+                    text: "Book Trip Now",
+                    color: Colors.white,
+                  ),
+                )
+              : Container(),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              Icons.keyboard_double_arrow_right_rounded,
+              color: Colors.white,
+              size: 35,
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
