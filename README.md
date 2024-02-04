@@ -11,13 +11,11 @@ Mor Chhattisgarh is a Flutter-based mobile application designed to serve as a co
 
 ## 📸 Screenshots
 
-<img src="Screenshots/screenshot-1.png" width="180" alt="Screenshot-1">   
-<img src="Screenshots/screenshot-2.png" width="180" alt="Screenshot-2">   
-<img src="Screenshots/screenshot-3.png" width="180" alt="Screenshot-3">   
-<img src="Screenshots/screenshot-4.png" width="180" alt="Screenshot-4">
-<img src="Screenshots/screenshot-5.png" width="180" alt="Screenshot-1">   
-<img src="Screenshots/screenshot-6.png" width="180" alt="Screenshot-2">   
-<img src="Screenshots/screenshot-7.png" width="180" alt="Screenshot-3">   
+<img src="screenshots/screenshot-1.png" width="180" alt="Screenshot-1">  <img src="screenshots/screenshot-2.png" width="180" alt="Screenshot-2"> <img src="screenshots/screenshot-3.png" width="180" alt="Screenshot-3">  
+   
+<img src="screenshots/screenshot-4.png" width="180" alt="Screenshot-4"> <img src="screenshots/screenshot-5.png" width="180" alt="Screenshot-5"> <img src="screenshots/screenshot-6.png" width="180" alt="Screenshot-6">   
+ 
+<img src="screenshots/screenshot-7.png" width="180" alt="Screenshot-7">   
 
 ## Installation
 
